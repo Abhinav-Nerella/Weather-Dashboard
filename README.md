@@ -2,7 +2,8 @@
 # 🌤️ Animated Weather Dashboard
 A clean and responsive weather application that fetches current weather conditions and a 5-day forecast for any city using the OpenWeatherMap API. It also includes a day/night theme toggle with automatic and manual control.
 
-
+# Image
+Link:https://ibb.co/prkCHtkj
 
 # 🚀 Features
 ✅ Current weather with temperature and condition
