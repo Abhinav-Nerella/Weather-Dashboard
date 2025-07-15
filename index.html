@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌤️ Weather Dashboard</h1>
+
+    <!-- Theme toggle -->
+    <div class="theme-toggle">
+      <label class="switch">
+        <input type="checkbox" id="themeSwitch" aria-label="Toggle theme">
+        <span class="slider"></span>
+      </label>
+      <span id="themeLabel">☀️ Day Mode</span>
+    </div>
+
+    <!-- Weather Form -->
+    <form id="weatherForm" autocomplete="off">
+      <input type="text" id="cityInput" placeholder="Enter city name..." required />
+      <button type="submit">Check Weather</button>
+    </form>
+
+    <!-- Current Weather Card -->
+    <div id="weatherCard" class="card hidden">
+      <img src="" class="weather-icon" alt="Weather Icon" />
+      <h2 id="cityName">City</h2>
+      <p id="temperature">Temperature: -- °C</p>
+      <p id="condition">Condition: --</p>
+    </div>
+
+    <!-- Multi-day Forecast -->
+    <div id="forecastContainer" class="forecast-container hidden">
+      <h3>5-Day Forecast</h3>
+      <div id="forecastCards" class="forecast-cards"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
